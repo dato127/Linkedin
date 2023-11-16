@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F0F2F5;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(font/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(font/Roboto-Regular.ttf);
+}
+/*container*/
+.container {
+    display: flex;
+}
+/*container logo*/
+.container-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 58px;
+}
+/*container logo ancor*/
+.container-logo-ancor {
+    margin-left: 11.27px;
+    text-decoration: none;
+    color: #000;
+    font-family: "Inter";
+    font-size: 16.932px;
+    font-weight: 500;
+}
+/*container sign up*/
+.container-sign-up {
+    display: flex;
+    align-items: center;
+    margin-left: 357.24px;
+    margin-top: 53px;
+}
+/*container sign up paragraph*/
+.container-sign-up-paragraph{
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 300;
+}
+/*container sign up ancor*/
+.container-sign-up-ancor {
+    text-decoration: none;
+    color: #20DC49;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+
+}
+/*bacground image right*/
+.bacground-image-right {
+    
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 619px;
+    height: 900px;
+    background-image: url(galery/linkedin-sales-solutions-B_DJO2-K22M-unsplash\ 1.png);
+}
+/*bacground image right  rectangle*/
+
+.bacground-image-rectangle {
+    width: 547px;
+    height: 270px;
+    margin-top: 581px;
+    background: #FFF2F2;
+    border-radius: 10px;
+    backdrop-filter:  blur(50px);
+}
+
+.bacground-image-rectangle-input {
+    margin-top: 42px;
+    margin-left: 37px;
+    width: 238px;
+    height: 45px;
+    padding-left: 51px;
+    background-color: #20DC49;
+    font-size: 14px;
+    font-family: "Roboto";
+    border: none;
+    border-radius: 10px;
+    background-image: url(galery/thumbs-up_1f44d\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 17px 50% ;
+}
+
+.bacground-image-rectangle-paragraph {
+    width: 453px;
+    margin-top: 25px;
+    margin-left: 37px;
+    color: #202020;
+    font-family: "Poppins";
+    font-size: 20px;
+    
+    
+
+}
+/*bachround image shadow*/
+.shadow{
+    position: absolute;
+    top: 501px;
+    right: 320px;
+    width: 353px;
+    height: 353px;
+    border-radius: 353px;
+    background-color: rgba(32, 220, 73, 0.38);
+    filter: blur(100px);
+
+}
+/*container log in*/
+.container-log-in {
+    width: 821px;
+    display: flex;
+    justify-content: center;
+}
+
+.log-in {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+}
+
+.log-in-paragraph-header {
+    font-family:"Poppins";
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.log-in-paragraph {
+    font-family: "Poppins";
+    font-size: 18px;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+/*sign up google or facebook*/
+.google-or-facebook {
+    margin-top: 38px;
+    margin-bottom: 0;
+}
+
+.google {
+    width: 126px;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #20DC49;
+    background: #FFF;
+    padding-left: 56px;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    background-image: url(galery/google\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: 26px 50%;
+    
+}
+
+.facebook {
+    width: 126px;
+    height: 43px;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    background-color: #FFF;
+    padding-left: 51px;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    background-image: url(galery/facebook\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: 17px 50%;
+    margin-left: 14px;
+}
+/*paragraph "Or continue with" */
+.Or-continue-with {
+    font-size: 13px;
+    font-family: "Poppins";
+    margin-top: 37px;
+    margin-bottom: 0;
+}
+/*input log in "email/password"*/
+.input-log-in {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.email, .password {
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    padding-left: 24px;
+    font-family: "Poppins";
+    font-size: 14px;
+    outline: none;
+}
+
+.input-password {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 38px;
+
+    
+
+}
+/*password icon blind*/
+.password-blind-icon {
+    position: absolute;
+    padding-right: 23px;
+}
+/* div recover password*/
+.Recover-password {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+/*check box */
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    appearance: none;
+    width: 40px;
+    height: 20px;
+    background: #ECECEC;
+    border-radius: 36.5px;
+    border: 0.5px solid #C9C9C9;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-right: 8px;
+
+    
+}
+
+input[type="checkbox"]::after {
+    position: absolute;
+    top: 0.8px;
+    left: 2px;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-color: #FFF;
+    border-radius: 12px;
+    box-shadow: 1px 1px 2px -1px rgba(51, 51, 51, 0.30);
+    transform: scale(1.1);
+    transition: 0.4s;
+
+}
+
+input:checked[type="checkbox"]::after {
+    left: 53%;
+}
+/*check box paragraph*/
+.checkbox-paragraph {
+    font-family: "Poppins";
+    font-size: 12px;
+    margin: 0;
+}
+/*recovery password paragraph*/
+.Recover-password-paragraph {
+    color: #D93F21;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    
+}
+/*input type submit "log in" */
+.submit-log-in {
+    width: 400px;
+    height: 55px;
+    border: 1px solid #5A5A5A;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: "Poppins";
+    font-size: 18px;
+    margin-top: 35px;
+}
